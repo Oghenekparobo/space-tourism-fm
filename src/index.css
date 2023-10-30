@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* animations */
+/* navbar */
+
+/* animation to rotate the logo */
+.spin-logo {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* animation to drop horizontal line on large screen */
+.nav-line {
+  animation: drop-line 1s ease-out;
+}
+
+@keyframes drop-line {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+/* animations to slide the navlinks from the right */
+.nav-links__right {
+  animation: links__right 1s ease-out;
+}
+
+@keyframes links__right {
+  0% {
+    right: -1200px;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+/* animations for explore element on homepage */
+
+.exp {
+  animation: opay 1s ease-out;
+}
+
+@keyframes opay {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
