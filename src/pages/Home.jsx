@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <main className="bg-home-mobile h-full bg-cover relative py-10 flex justify-center items-center lg:h-screen  md:bg-home-tablet lg:bg-home-desktop">
+    <main className="bg-home-mobile h-full bg-cover relative py-10 flex justify-center items-center lg:h-screen md:bg-home-tablet lg:bg-home-desktop">
       <section className="grid grid-cols-1 pt-64 gap-y-24 lg:gap-y-0 lg:pt-0 lg:gap-x-60 lg:grid-cols-2">
         <div className="text px-4 flex flex-col text-center space-y-4 md:px-0 lg:text-justify lg:space-y-6">
           <p className="text-sm text-slate-400 uppercase tracking-[0.2rem] md:text-xl lg:tracking-wide">
@@ -21,7 +21,6 @@ const Home = () => {
           </h1>
           <p className="text-center max-w-sm leading-8 text-slate-300 md:max-w-md py-16 md:py-0 lg:max-w-sm lg:text-sm">
             <TypeAnimation
-              // splitter={(str) => str.split(/(?= )/)} // 'Lorem ipsum dolor' -> ['Lorem', ' ipsum', ' dolor']
               sequence={[
                 "  Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this  world experience!",
                 3000,

@@ -73,3 +73,115 @@
     opacity: 1;
   }
 }
+
+/* page title animation */
+.id-fade {
+  animation: fade-in 2s ease;
+}
+
+@keyframes fade-in {
+  0% {
+    left: -1200px;
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.text-fade {
+  animation: fade_text 3s ease-out;
+}
+
+@keyframes fade_text {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* planet image animation */
+.planet-img {
+  animation: p-img_fade 1.5s ease-in;
+}
+
+@keyframes p-img_fade {
+  0% {
+    left: -700px;
+    transform: rotate(180deg);
+  }
+
+  10% {
+    transform: rotate(180deg);
+  }
+
+  20% {
+    transform: rotate(90deg);
+  }
+
+  40% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(-90deg);
+  }
+
+  80% {
+    transform: rotate(-180deg);
+  }
+
+  90% {
+    transform: rotate(-270deg);
+  }
+
+  100% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+}
