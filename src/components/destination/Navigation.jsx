@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = ({ destinations, mainDestination, setMainDestination }) => {
   return (
-    <div className="relative top-20 links nav-links__right flex justify-center space-x-10 items-center uppercase text-sm text-slate-300 h-[75px] lg:top-0 lg:justify-evenly">
+    <div className="relative top-20 links nav-links__right flex justify-center space-x-6 items-center uppercase text-sm text-slate-300 h-[75px] lg:top-0 lg:justify-evenly">
       {destinations.map((destination, index) => (
         <p
           key={index}
