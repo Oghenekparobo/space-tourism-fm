@@ -185,3 +185,41 @@
     transform: rotate(0deg);
   }
 }
+
+/* planet name --> destination page */
+
+.name {
+  animation: name-slide 2s ease-in-out;
+}
+
+@keyframes name-slide {
+  0% {
+    opacity: 0;
+    left: -700px;
+  }
+
+  10% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 0.4;
+  }
+
+  30% {
+    opacity: 0.6;
+  }
+
+  40% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}

@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { destinations } from "../utils/data";
 
-import Navigation from "../components/destination/planet_navigation/Navigation";
+
 import PageTitle from "../components/PageTitle";
+import Navigation from "../components/destination/Navigation";
 
 const Destination = () => {
   const [mainDestination, setMainDestination] = useState(destinations[1]);
 
-  const [imageKey, setImageKey] = useState(0);
+  const [elKey, setElKey] = useState(0);
 
   useEffect(() => {
     //  using this to track rendering of the destination images on every change
-    setImageKey(imageKey + 1);
+    setElKey(elKey + 1);
   }, [mainDestination]);
 
   return (
-    <div className="bg-destination-mobile h-full bg-cover relative py-10 overflow-hidden lg:h-screen md:bg-destination-tablet lg:bg-destination-desktop">
+    <div className="bg-destination-mobile h-full bg-cover px-6 relative py-10 overflow-hidden  md:bg-destination-tablet lg:px-0 lg:h-screen lg:bg-destination-desktop">
       {/*page header */}
       <PageTitle id={"01"} text={"pick your destination"} />
 
@@ -25,7 +26,7 @@ const Destination = () => {
           {/* display planet image */}
           <div className="img relative top-10 flex items-center justify-center px-8 md:px-0 ">
             <img
-              key={imageKey}
+              key={elKey}
               src={mainDestination.images.png}
               alt={mainDestination.name}
               className="relative planet-img"
@@ -33,7 +34,7 @@ const Destination = () => {
           </div>
 
           {/* planet details and navigation */}
-          <section className="flex flex-col items-center justify-center space-y-8 lg:items-start lg:justify-start">
+          <section className="flex flex-col items-center justify-center space-y-8 lg:space-y-8 lg:items-start lg:justify-start">
             {/* navigation */}
             <nav className="navigation">
               {/* planet navigation */}
@@ -46,7 +47,10 @@ const Destination = () => {
 
             {/* planet name*/}
 
-            <h1 className="name text-8xl  text-white uppercase py-20 px-4 md:px-0 lg:py-0">
+            <h1
+              key={elKey}
+              className="relative name text-6xl text-white uppercase py-20 px-4 md:text-8xl md:px-0 lg:py-0"
+            >
               {mainDestination.name}
             </h1>
 

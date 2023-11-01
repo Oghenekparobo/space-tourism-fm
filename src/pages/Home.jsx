@@ -4,13 +4,13 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <main className="bg-home-mobile h-full bg-cover relative py-10 flex justify-center items-center lg:h-screen md:bg-home-tablet lg:bg-home-desktop">
+    <main className="bg-home-mobile h-full bg-cover relative py-10 px-8 flex justify-center items-center lg:px-0 lg:h-screen md:bg-home-tablet lg:bg-home-desktop">
       <section className="grid grid-cols-1 pt-64 gap-y-24 lg:gap-y-0 lg:pt-0 lg:gap-x-60 lg:grid-cols-2">
         <div className="text px-4 flex flex-col text-center space-y-4 md:px-0 lg:text-justify lg:space-y-6">
           <p className="text-sm text-slate-400 uppercase tracking-[0.2rem] md:text-xl lg:tracking-wide">
             So, you want to travel to
           </p>
-          <h1 className="text-8xl tracking-widest text-white uppercase relative md:text-[10rem] md:tracking-[1rem] lg:tracking-widest lg:text-9xl lg:-right-10">
+          <h1 className="text-xl tracking-widest text-white uppercase relative md:text-[10rem] md:tracking-[1rem] lg:tracking-widest lg:text-9xl lg:-right-10">
             <TypeAnimation
               sequence={["Space", 500, "space", 500, "space", 500]}
               cursor={false}

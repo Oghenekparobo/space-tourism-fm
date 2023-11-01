@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
+        "crew-desktop": "url('assets/crew/background-crew-desktop.jpg')",
+        "crew-mobile": "url('assets/crew/background-crew-mobile.jpg')",
+        "crew-tablet": "url('assets/crew/background-crew-tablet.jpg')",
         "home-desktop": "url('assets/home/background-home-desktop.jpg')",
         "home-mobile": "url('assets/home/background-home-mobile.jpg')",
         "home-tablet": "url('assets/home/background-home-tablet.jpg')",
