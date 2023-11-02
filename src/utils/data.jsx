@@ -19,6 +19,14 @@ import victor_webp from "../assets/crew/image-victor-glover.webp";
 import anousheh_png from "../assets/crew/image-anousheh-ansari.png";
 import anousheh_webp from "../assets/crew/image-anousheh-ansari.webp";
 
+// technology
+import vehicle_por from "../assets/technology/image-launch-vehicle-portrait.jpg";
+import vehicle_land from "../assets/technology/image-launch-vehicle-landscape.jpg";
+import spaceport_por from "../assets/technology/image-spaceport-portrait.jpg";
+import spaceport_land from "../assets/technology/image-spaceport-landscape.jpg";
+import capsule_por from "../assets/technology/image-space-capsule-portrait.jpg";
+import capsule_land from "../assets/technology/image-space-capsule-landscape.jpg";
+
 export const navlinks = [
   {
     id: "00",
@@ -128,30 +136,32 @@ export const crew = [
     bio: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.",
   },
 ];
-//   "technology": [
-//     {
-//       "name": "Launch vehicle",
-//       "images": {
-//         "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
-//         "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
-//       },
-//       "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
-//     },
-//     {
-//       "name": "Spaceport",
-//       "images": {
-//         "portrait": "./assets/technology/image-spaceport-portrait.jpg",
-//         "landscape": "./assets/technology/image-spaceport-landscape.jpg"
-//       },
-//       "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
-//     },
-//     {
-//       "name": "Space capsule",
-//       "images": {
-//         "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
-//         "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
-//       },
-//       "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
-//     }
-//   ]
-// }
+export const technology = [
+  {
+    name: "Launch vehicle",
+    images: {
+      portrait: vehicle_por,
+      landscape: vehicle_land,
+    },
+    description:
+      "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
+  },
+  {
+    name: "Spaceport",
+    images: {
+      portrait: spaceport_por,
+      landscape: spaceport_land,
+    },
+    description:
+      "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.",
+  },
+  {
+    name: "Space capsule",
+    images: {
+      portrait: capsule_por,
+      landscape: capsule_land,
+    },
+    description:
+      "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.",
+  },
+];

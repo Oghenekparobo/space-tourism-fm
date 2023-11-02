@@ -16,6 +16,12 @@ export default {
           "url('assets/destination/background-destination-mobile.jpg')",
         "destination-tablet":
           "url('assets/destination/background-destination-tablet.jpg')",
+        "technology-desktop":
+          "url('assets/technology/background-technology-desktop.jpg')",
+        "technology-mobile":
+          "url('assets/technology/background-technology-mobile.jpg')",
+        "technology-tablet":
+          "url('assets/technology/background-technology-tablet.jpg')",
       },
     },
   },
