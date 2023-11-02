@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
- <img src="./src/assets/readme-img/spt1.PNG" alt="Image 4" />
+ <img src="./src/assets/readme-img/st1.PNG" alt="Image 4" />
 
 <div class="image-grid">
   <div class="image">
