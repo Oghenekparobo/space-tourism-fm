@@ -24,25 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/assets/readme-img/spt1.PNG)
-
-<style>
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    gap: 10px; 
-  }
-
-  .image {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center; 
-  }
-
-  .image img {
-    max-width: 100%;
-  }
-</style>
+ <img src="./src/assets/readme-img/spt1.PNG" alt="Image 4" />
 
 <div class="image-grid">
   <div class="image">
