@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Oghenekparobo/space-tourism-fm)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Oghenekparobo/space-tourism-fm)
+- Live Site URL: ([https://your-live-site-url.com](https://space-tourism-fm-eta.vercel.app/))
 
 ## My process
 
